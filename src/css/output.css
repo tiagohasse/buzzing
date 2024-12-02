@@ -4,136 +4,48 @@
   margin: 0px
 }
 
-.mb-\[291px\]{
-  margin-bottom: 291px
+.mb-\[15px\]{
+  margin-bottom: 15px
 }
 
-.mb-\[303px\]{
-  margin-bottom: 303px
-}
-
-.mb-\[280px\]{
-  margin-bottom: 280px
-}
-
-.mb-\[271px\]{
-  margin-bottom: 271px
-}
-
-.mb-\[221px\]{
-  margin-bottom: 221px
-}
-
-.mb-\[250px\]{
-  margin-bottom: 250px
-}
-
-.mb-\[240px\]{
-  margin-bottom: 240px
-}
-
-.mb-\[230px\]{
-  margin-bottom: 230px
-}
-
-.mb-\[px\]{
-  margin-bottom: px
-}
-
-.mb-\[35\2c 5\%\]{
-  margin-bottom: 35,5%
-}
-
-.mb-\[64\]{
-  margin-bottom: 64
-}
-
-.mb-\[64\2c 1\]{
-  margin-bottom: 64,1
-}
-
-.mb-\[34\2c 1\]{
-  margin-bottom: 34,1
-}
-
-.mb-\[34\2c 1\%\]{
-  margin-bottom: 34,1%
-}
-
-.mb-\[35\2c 5vh\]{
-  margin-bottom: 35,5vh
-}
-
-.mb-\[34\2c 1vh\]{
-  margin-bottom: 34,1vh
-}
-
-.mb-\[35vh\]{
-  margin-bottom: 35vh
-}
-
-.mb-\[34vh\]{
-  margin-bottom: 34vh
-}
-
-.mb-\[33vh\]{
-  margin-bottom: 33vh
+.mb-\[25px\]{
+  margin-bottom: 25px
 }
 
 .mb-\[31vh\]{
   margin-bottom: 31vh
 }
 
-.mb-\[25vh\]{
-  margin-bottom: 25vh
-}
-
-.mb-\[30vh\]{
-  margin-bottom: 30vh
-}
-
-.mb-\[33\.9vh\]{
-  margin-bottom: 33.9vh
-}
-
-.mb-\[33\.8vh\]{
-  margin-bottom: 33.8vh
-}
-
-.mb-\[36vh\]{
-  margin-bottom: 36vh
-}
-
-.mb-\[37vh\]{
-  margin-bottom: 37vh
-}
-
-.mb-\[37\.5vh\]{
-  margin-bottom: 37.5vh
-}
-
-.mb-\[37\.7vh\]{
-  margin-bottom: 37.7vh
-}
-
-.mb-\[37\.4vh\]{
-  margin-bottom: 37.4vh
-}
-
-.mb-\[37\.3vh\]{
-  margin-bottom: 37.3vh
-}
-
-.mb-\[37\.1vh\]{
-  margin-bottom: 37.1vh
-}
-
 .mb-\[37\.2vh\]{
   margin-bottom: 37.2vh
 }
 
+.mb-\[60\.4vh\]{
+  margin-bottom: 60.4vh
+}
+
+.ml-\[12px\]{
+  margin-left: 12px
+}
+
+.mt-0{
+  margin-top: 0px
+}
+
+.mb-0{
+  margin-bottom: 0px
+}
+
 .flex{
   display: flex
+}
+
+.h-20{
+  height: 5rem
+}
+
+.h-\[37px\]{
+  height: 37px
 }
 
 .h-\[38px\]{
@@ -148,20 +60,32 @@
   height: 43px
 }
 
+.h-\[75px\]{
+  height: 75px
+}
+
 .h-\[93px\]{
   height: 93px
 }
 
-.h-20{
-  height: 5rem
+.w-20{
+  width: 5rem
 }
 
-.w-\[221px\]{
-  width: 221px
+.w-\[221buttonx\]{
+  width: 221buttonx
 }
 
-.w-\[393px\]{
-  width: 393px
+.w-\[307px\]{
+  width: 307px
+}
+
+.w-\[378px\]{
+  width: 378px
+}
+
+.w-\[78buttonx\]{
+  width: 78buttonx
 }
 
 .w-\[78px\]{
@@ -172,28 +96,72 @@
   width: 100%
 }
 
-.w-20{
-  width: 5rem
-}
-
-.w-\[78buttonx\]{
-  width: 78buttonx
-}
-
-.w-\[221buttonx\]{
-  width: 221buttonx
-}
-
 .flex-col{
   flex-direction: column
+}
+
+.place-items-start{
+  place-items: start
+}
+
+.items-start{
+  align-items: flex-start
+}
+
+.items-end{
+  align-items: flex-end
 }
 
 .items-center{
   align-items: center
 }
 
+.items-baseline{
+  align-items: baseline
+}
+
+.items-stretch{
+  align-items: stretch
+}
+
+.justify-normal{
+  justify-content: normal
+}
+
+.justify-start{
+  justify-content: flex-start
+}
+
+.justify-end{
+  justify-content: flex-end
+}
+
 .justify-center{
   justify-content: center
+}
+
+.justify-between{
+  justify-content: space-between
+}
+
+.justify-evenly{
+  justify-content: space-evenly
+}
+
+.justify-items-start{
+  justify-items: start
+}
+
+.gap-0{
+  gap: 0px
+}
+
+.gap-6{
+  gap: 1.5rem
+}
+
+.gap-60{
+  gap: 15rem
 }
 
 .space-x-\[137px\] > :not([hidden]) ~ :not([hidden]){
@@ -202,8 +170,74 @@
   margin-left: calc(137px * calc(1 - var(--tw-space-x-reverse)))
 }
 
+.space-y-0 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0px * var(--tw-space-y-reverse))
+}
+
+.space-y-\[\] > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc( * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc( * var(--tw-space-y-reverse))
+}
+
+.space-y-\[-1\] > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(-1 * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(-1 * var(--tw-space-y-reverse))
+}
+
+.space-y-\[-5\] > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(-5 * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(-5 * var(--tw-space-y-reverse))
+}
+
+.-space-y-0 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(-0px * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(-0px * var(--tw-space-y-reverse))
+}
+
+.-space-y-5 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(-1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(-1.25rem * var(--tw-space-y-reverse))
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse))
+}
+
+.space-y-6 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse))
+}
+
+.space-y-60 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(15rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(15rem * var(--tw-space-y-reverse))
+}
+
+.space-y-reverse > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 1
+}
+
+.justify-self-start{
+  justify-self: start
+}
+
 .text-nowrap{
   text-wrap: nowrap
+}
+
+.rounded-\[20px\]{
+  border-radius: 20px
 }
 
 .rounded-bl-\[20px\]{
@@ -220,10 +254,6 @@
 
 .rounded-tr-\[20px\]{
   border-top-right-radius: 20px
-}
-
-.border{
-  border-width: 1px
 }
 
 .border-0{
@@ -244,10 +274,6 @@
   background-color: inherit
 }
 
-.bg-none{
-  background-image: none
-}
-
 .text-center{
   text-align: center
 }
@@ -260,6 +286,11 @@
   font-size: 32px
 }
 
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem
+}
+
 .font-normal{
   font-weight: 400
 }
@@ -269,13 +300,13 @@
   color: rgb(92 32 94 / var(--tw-text-opacity, 1))
 }
 
+.text-inherit{
+  color: inherit
+}
+
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1))
-}
-
-.text-inherit{
-  color: inherit
 }
 
 .no-underline{
