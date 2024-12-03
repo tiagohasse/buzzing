@@ -11,14 +11,23 @@
         <div class="w-full h-[43px] bg-[#5c205e] rounded-bl-[20px] rounded-br-[20px] mb-[15px]"></div>
     </header>
     <main class="flex flex-col items-center justify-center">
-        <button onclick="location.href='registro-automatico.html'" type="button" class="flex flex-col gap-0 w-[378px] h-[75px] rounded-[20px] bg-[#5c205e] mb-[25px] text-white text-[32px] font-Concert font-normal border-0 no-underline">
-            <p class="text-inherit no-underline font-normal text-nowrap mb-0 mt-0">Registro Automático</p>
-            <p class="w-[307px] h-[37px] text-white text-sm font-normal font-['Concert One'] mt-0 ml-[12px] mb-0">Analisa as paradas mais proximas e permite o registro mais fácil dos onibus</p>
+        <button class="flex items-center justify-center gap-0 w-[378px] h-[75px] rounded-[20px] bg-[#5c205e] mb-[25px] text-white text-[32px] font-Concert font-normal border-0 no-underline">
+            <p class="text-inherit no-underline font-normal text-nowrap mb-0 mt-0">Registro</p>
         </button>
-        <button onclick="location.href='registro-manual.html'" type="button" class="flex flex-col gap-0 w-[378px] h-[75px] rounded-[20px] bg-[#5c205e] text-white text-[32px] font-Concert font-normal border-0 no-underline mb-[60.4vh]">
-            <p class="text-inherit no-underline font-normal text-nowrap mb-0 mt-0">Registro Manual</p>
-            <p class="w-[307px] h-[37px] text-white text-sm font-normal font-['Concert One'] mt-0 ml-[12px] mb-0">Mostra o mapa e permite o registro manual do usuario</p>
-        </button>
+        <form>
+            <div class="mb-4">
+              <label for="email" class="flex font-Concert font-normal bg-inherit border-0 text-[#5c205e]">Email:</label>
+              <input type="email" id="email" class="w-full py-5 px-6 rounded-[20px] mb-[25px]" 
+            </div>
+    
+            <div class="mb-6">
+              <label for="password" class="flex items-center font-Concert font-normal bg-inherit border-0 text-[#5c205e]">Senha:</label>
+              <input type="password" id="password" class="w-full py-5 px-6 rounded-[20px] mb-[25px]"
+            </div>
+    
+            <button type="submit" class="flex items-center justify-center gap-0 w-[378px] h-[75px] rounded-[20px] bg-[#5c205e] mb-[25px] text-white text-[32px] font-Concert font-normal border-0 no-underline">
+              Registro
+            </button>
     </main>
     <footer class="flex items-center justify-center">
         <section class="w-full h-[93px] bg-[#5c205e] rounded-tl-[20px] rounded-tr-[20px] flex items-center justify-center space-x-[137px]">
