@@ -9,6 +9,11 @@
   margin-bottom: 0px
 }
 
+.my-2{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem
+}
+
 .mb-0{
   margin-bottom: 0px
 }
@@ -19,6 +24,10 @@
 
 .mb-6{
   margin-bottom: 1.5rem
+}
+
+.mb-\[1\.2vh\]{
+  margin-bottom: 1.2vh
 }
 
 .mb-\[1\.9vh\]{
@@ -45,20 +54,80 @@
   margin-bottom: 3.8vh
 }
 
-.mb-\[31vh\]{
-  margin-bottom: 31vh
+.mb-\[32\.6vh\]{
+  margin-bottom: 32.6vh
 }
 
 .mb-\[37\.2vh\]{
   margin-bottom: 37.2vh
 }
 
+.mb-\[5px\]{
+  margin-bottom: 5px
+}
+
 .mb-\[60\.4vh\]{
   margin-bottom: 60.4vh
 }
 
+.mb-\[62\.3vh\]{
+  margin-bottom: 62.3vh
+}
+
+.ml-\[12px\]{
+  margin-left: 12px
+}
+
 .mt-0{
   margin-top: 0px
+}
+
+.mb-\[5vh\]{
+  margin-bottom: 5vh
+}
+
+.mb-\[4\.8vh\]{
+  margin-bottom: 4.8vh
+}
+
+.mb-\[4\.7vh\]{
+  margin-bottom: 4.7vh
+}
+
+.mb-\[4\.6vh\]{
+  margin-bottom: 4.6vh
+}
+
+.mb-\[61vh\]{
+  margin-bottom: 61vh
+}
+
+.mb-\[64vh\]{
+  margin-bottom: 64vh
+}
+
+.mb-\[63vh\]{
+  margin-bottom: 63vh
+}
+
+.mb-\[62\.5vh\]{
+  margin-bottom: 62.5vh
+}
+
+.mb-\[62\.4vh\]{
+  margin-bottom: 62.4vh
+}
+
+.mb-\[4vh\]{
+  margin-bottom: 4vh
+}
+
+.mb-\[3vh\]{
+  margin-bottom: 3vh
+}
+
+.mb-\[4\.5vh\]{
+  margin-bottom: 4.5vh
 }
 
 .flex{
@@ -67,6 +136,10 @@
 
 .h-20{
   height: 5rem
+}
+
+.h-\[37px\]{
+  height: 37px
 }
 
 .h-\[38px\]{
@@ -79,6 +152,10 @@
 
 .h-\[43px\]{
   height: 43px
+}
+
+.h-\[44\]{
+  height: 44
 }
 
 .h-\[75px\]{
@@ -101,6 +178,10 @@
   width: 221buttonx
 }
 
+.w-\[307px\]{
+  width: 307px
+}
+
 .w-\[364px\]{
   width: 364px
 }
@@ -119,6 +200,30 @@
 
 .w-full{
   width: 100%
+}
+
+.w-\[full\]{
+  width: full
+}
+
+.w-\[\]{
+  width: 
+}
+
+.w-\[50vh\]{
+  width: 50vh
+}
+
+.w-\[50vw\]{
+  width: 50vw
+}
+
+.w-\[70vw\]{
+  width: 70vw
+}
+
+.w-\[75vw\]{
+  width: 75vw
 }
 
 .flex-col{
@@ -194,14 +299,18 @@
   padding: 1rem
 }
 
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem
+.px-\[40px\]{
+  padding-left: 40px;
+  padding-right: 40px
 }
 
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem
+.py-\[20px\]{
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+
+.pb-0{
+  padding-bottom: 0px
 }
 
 .pl-\[40px\]{
@@ -226,6 +335,11 @@
 
 .text-\[32px\]{
   font-size: 32px
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem
 }
 
 .font-normal{
